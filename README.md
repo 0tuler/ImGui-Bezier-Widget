@@ -30,7 +30,7 @@ std::vector<ImVec2> Points = {{0.2, 0.8}, {0.5, 0.1}};
 
 std::vector<ImVec2> Results;
 
-ImGui::Begin("Window);
+ImGui::Begin("Window");
 ...
 
 ImGui::Bezier("Label", Points, Results);
